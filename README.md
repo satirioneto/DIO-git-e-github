@@ -39,6 +39,7 @@ git fatch < repositório remoto(origin) > < repositório local(main)>
 git diff
 git checkout < branch > | -b
 git stash pop | apply | list
+--- arquiva alterações que você fez para serem trabalhadas posteriormente
 ```
 #### Terminal
 ```
