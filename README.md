@@ -17,19 +17,24 @@ Repositório parae armazenar resumos sobre Git e GitHub do curso "Versionamento 
 git config
 git init
 git clone
-git remote add origin < URL do repositório remoto >
+git remote add < remoto(origin) > < URL do repositório remoto >
+--- adiciona um novo repositório local a partir de um repositório remoto
 git status
-git push --set-upstream | -u < repositório remoto (origin) > < repositório local (main) >
-    Envia para o repositório remoto(origin) as atualizações feitas localmente(main).
-git pull: 
-    Trás para o repositório local(main) as atualizações feitas no remoto(origin).
-git commit --message < "texto do commit" > | --amend --message <"renomear commit">
+git push -u --set-upstream < remoto(origin) > < local(main) >
+--- envia para o repositório remoto(origin) as atualizações feitas localmente(main).
+git pull
+--- trás para o repositório local(main) as atualizações feitas no remoto(origin).
+git commit -m --message < "texto do commit" > | --amend --message <"renomear commit">
 git restore < arquivo anterior >
 git log
 git add
 git reset --soft | --mixed | --hard
 git reflog
 git restore --staged < arquivo >
+git branch -v --verbose | --list | --delete
+--- manipulações referentes as branches
+git merge < branch para mesclar >
+--- mescla as a branch escolhida na atual
 ```
 #### Terminal
 ```
@@ -42,3 +47,5 @@ touch = criar um arquivo vazio
 rm -rf <file>
 echo <cria mensagem>
 ```
+## 📑 Referências 
+[Edicição de arquivos markdown](https://readme.so)
