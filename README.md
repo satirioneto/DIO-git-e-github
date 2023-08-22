@@ -1,6 +1,6 @@
 # DIO | Resumos Git e GitHub
 
-Repositório parae armazenar resumos sobre Git e GitHub do curso "Versionamento de Código com Git e GitHub" da [Digital Innovation One](https://www.dio.me)
+Repositório para armazenar resumos sobre Git e GitHub do curso "Versionamento de Código com Git e GitHub" da [Digital Innovation One](https://www.dio.me)
 
 ## 📚 Documentação
 - [Documentação Git](https://git-scm.com/doc)
@@ -16,7 +16,7 @@ Repositório parae armazenar resumos sobre Git e GitHub do curso "Versionamento 
 ```
 git config
 git init
-git clone
+git clone < URL > | --branch < branch > --single-branch
 git remote add < remoto(origin) > < URL do repositório remoto >
 --- adiciona um novo repositório local a partir de um repositório remoto
 git status
@@ -35,6 +35,10 @@ git branch -v --verbose | --list | --delete
 git merge < branch para mesclar >
 --- mescla as a branch escolhida na atual
 git remote show origin
+git fatch < repositório remoto(origin) > < repositório local(main)>
+git diff
+git checkout < branch > | -b
+git stash pop | apply | list
 ```
 #### Terminal
 ```
@@ -49,3 +53,4 @@ echo <cria mensagem>
 ```
 ## 📑 Referências 
 [Edicição de arquivos markdown](https://readme.so)
+[Atlassian - Use bem o Git](https://www.atlassian.com/br/git)
