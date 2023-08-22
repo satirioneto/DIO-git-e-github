@@ -25,7 +25,6 @@ git push -u --set-upstream < remoto(origin) > < local(main) >
 git pull
 --- trás para o repositório local(main) as atualizações feitas no remoto(origin).
 git commit -m --message < "texto do commit" > | --amend --message <"renomear commit">
-git restore < arquivo anterior >
 git log
 git add
 git reset --soft | --mixed | --hard
@@ -35,6 +34,7 @@ git branch -v --verbose | --list | --delete
 --- manipulações referentes as branches
 git merge < branch para mesclar >
 --- mescla as a branch escolhida na atual
+git remote show origin
 ```
 #### Terminal
 ```
