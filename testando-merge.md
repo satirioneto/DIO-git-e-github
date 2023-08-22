@@ -1,3 +1,3 @@
 # Testando Merge
 
-Esse arquivo está somente no repositório local
+Esse arquivo está em ambos os repositório
